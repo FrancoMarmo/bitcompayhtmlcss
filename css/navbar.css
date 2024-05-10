@@ -1,0 +1,59 @@
+@import url(./navbar.css);
+
+.header{
+    background-image: url(/assets/img/navbar.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+    /* border-top: none;
+    border-bottom: red 5px dotted;
+    /* border-right: red 5px dotted; */
+    /* border-left: red 5px dotted;
+    border-radius: 40px;  */
+}
+
+.name{
+    display: flex;
+    flex-direction: start;
+    margin-left: -43px;
+}
+
+.name img{
+    height: auto;
+    width: 100%;
+}
+
+.nav-links{
+    list-style: none;
+
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav-links a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links li a::after{
+    content: "";
+    position: absolute;
+    background-color: red;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.nav-links li a:hover:after{
+    width: 100%;
+}

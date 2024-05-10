@@ -1,0 +1,68 @@
+margenes en titulos
+
+fondo con lineas
+
+poner tarjetitas 
+
+
+
+css
+
+.item {
+    position: relative;
+    text-align: center;
+    background-color: red;
+    padding: 30px;
+    height: 100%;
+    width: 100%;
+}
+
+.item .circle {
+    position: absolute;
+    top: 0; /* Ajustar posición en la esquina superior */
+    right: 0; /* Ajustar posición en la esquina derecha */
+    transform: translate(50%, -50%); /* Centrar el círculo */
+    width: 60px;
+    height: 60px;
+    background-color: blue;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+
+HTML
+
+
+<div class="grid-container">
+                    <div class="item">
+                        <div class="circle"></div>
+                        <h2>Debito Directo Bancario</h2>
+                        <p>Texto</p>
+                    </div>
+                    <div class="item">
+                        <div class="circle"></div>
+                        <h2>Debito Directo Bancario</h2>
+                        <p>Texto</p>
+                    </div>
+                    <div class="item">
+                        <div class="circle"></div>
+                        <h2>Debito Directo Bancario</h2>
+                        <p>Texto</p>
+                    </div>
+                    <div class="item">
+                        <div class="circle"></div>
+                        <h2>Debito Directo Bancario</h2>
+                        <p>Texto</p>
+                    </div>
+                    <div class="item">
+                        <div class="circle"></div>
+                        <h2>Debito Directo Bancario</h2>
+                        <p>Texto</p>
+                    </div>
+                    <div class="item">
+                        <div class="circle"></div>
+                        <h2>Debito Directo Bancario</h2>
+                        <p>Texto</p>
+                    </div>
+                </div>    
+            </div>

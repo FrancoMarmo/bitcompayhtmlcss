@@ -1,0 +1,58 @@
+@import url(./home.css);
+
+
+
+.home{
+    background-image: url(/assets/img/fondo\ primero.jpg);
+    /* padding: 100px; */
+    height: 900px;
+    width: 100%;
+}
+
+.header-home{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 14rem 9rem;
+    text-align: start;
+}
+
+.header-home h1{
+    font-size: 79px;
+    color: white;
+    font-weight: 300;
+    text-align: start;
+    font-family: "Spline Sans", sans-serif;
+}
+
+.header-home h1 span{
+    color: #1BDFB7;
+    font-weight: bold;
+    font-family: "Spline Sans", sans-serif;
+}
+
+.header-home p{
+    font-size: 32px;
+    font-weight: 300;
+    text-align: start; 
+    font-family: "Roboto", sans-serif;
+    color: white;
+    padding: 10px;
+}
+
+.header-home p span{
+    font-weight: 700;
+}
+
+.header-home button{
+    background: none;
+    border: none;
+    padding: 0;
+    margin-top: 15px;
+ }
+ 
+.header-home button img{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+ }
