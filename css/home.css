@@ -7,6 +7,7 @@
     /* padding: 100px; */
     height: 900px;
     width: 100%;
+    background-size: cover;
 }
 
 .header-home{

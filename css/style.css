@@ -5,9 +5,11 @@
     font-family: Spline Sans;
 }
 
-.body{
-    background-color: white;
-}
+
+html, body{
+         max-width: 100%;     
+         overflow-x: hidden; }
+
 
 .roboto-light {
     font-family: "Roboto", sans-serif;

@@ -1,0 +1,83 @@
+@import url(./login.css);
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: url('/assets/img/fondo\ login.jpg');
+    background-size: cover;
+    background-position: 100% 100%;
+
+  }
+  
+  
+  .form-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 2rem;
+    margin: 5rem auto;
+    gap: 50px;
+  }
+  
+  .left-content {
+    flex: 1;
+    color: white;
+    padding: 1rem;
+    position: relative;
+  }
+  
+  .left-content h2 {
+    color: #1bdfb7;
+    font-size: 3rem;
+  }
+  
+  .left-content p {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+  
+  .right-content {
+    flex: 1;
+    background: white;
+    padding: 2rem;
+    border-radius: 35px;
+    max-width: 40rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  form label {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: rgba(110, 106, 106, 0.904);;
+  }
+  
+  form input, form textarea {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border-radius: 15px;
+    font-size: 1rem;
+    border: none;
+    background-color: rgba(216, 213, 213, 0.678);
+  }
+
+  
+  form textarea {
+    height: 15rem;
+  }
+  
+  form button {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #1bdfb7;
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  

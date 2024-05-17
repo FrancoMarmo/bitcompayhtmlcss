@@ -40,15 +40,25 @@
     display: grid;
     grid-template-columns: repeat(3, 3fr); 
     gap: 8px;
-    margin-left: -45px;
-    margin-top: 30px;
+    /* margin-left: -45px;
+    margin-top: 30px; */
+
 }
 
 .grid-container figure img{
-    height: 300px;
-    width: 32rem;
+    height: 255px;
+    width: 25rem;
+    
 }
 
+
+@media screen and (max-width: 1024px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr); 
+        gap: 8px;
+}
+}
 
 
 
